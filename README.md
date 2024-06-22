@@ -86,3 +86,10 @@ Details on the sentence transformer are in https://www.sbert.net/ and https://hu
 
 ## Paper
 Basel, A. , Al-Sheer, E. , Singhal, A. , Khan, L. and Hamlen, K. (2023), SMET: Semantic Mapping of CVE to ATT&CK and its Application to Cyber Security, DBSec 2023: Data and Applications Security and Privacy XXXVII, Sophia Antopolis, FR, https://doi.org/10.1007/978-3-031-37586-6_15, https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=936761.
+
+
+## Similar Map
+A similar mapping is in the `mappings-explorer/src/mapex_convert/mappings/Att&ckToCveMappings.csv` file of the repo in https://github.com/center-for-threat-informed-defense/mappings-explorer.git
+
+Check also: https://center-for-threat-informed-defense.github.io/mappings-explorer/about/methodology/cve-methodology/
+ 
