@@ -5,6 +5,8 @@
 ## Background
 The Common Vulnerabilities and Exposures (CVE) and ATT&CK Matrix are two significant MITRE endeavors. CVE facilitates sharing publicly discovered vulnerabilities while ATT&CK collects and categorizes adversaries' Tactic, Techniques, and Procedures (TTP) and recommends appropriate countermeasures. As CVE yields a low-level description of the vulnerability, ATT&CK can complement CVE by providing more insights into it from an attacking perspective for a deeper analysis. 
 
+This project defines a methodology for using MITRE ATT&CK to characterize the impact of a vulnerability as described in the CVE. ATT&CK techniques provide a standard way of describing the methods adversaries use to exploit a vulnerability and what adversaries may achieve by exploiting the vulnerability. Using ATT&CK techniques to describe a vulnerability makes it easier for defenders to integrate vulnerabilities into their threat modeling.
+
 `SMET` is a tool that automatically maps CVE entries to ATT&CK techniques based on their textual similarity. SMET achieves this mapping by leveraging `ATT&CK BERT`, a model to learn semantic similarity among attack actions. 
 
 In inference, `SMET` utilizes semantic extraction, `ATT&CK BERT`, and a logistic regression model to map CVE entries to ATT&CK techniques. 
